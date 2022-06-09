@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
-import { View } from 'react-native-web';
+import { View } from 'react-native';
 
 const ComponentsScreen = () => {
   const name = 'Camilla';
-  
+
   return (
     <View> 
     <Text style={styles.text}>Getting started with React Native!</Text>
